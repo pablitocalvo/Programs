@@ -5,7 +5,7 @@ import time
 nomefile = sys.argv[1]
 content = ""
 statinfo = os.stat(nomefile)
-print("Il peso attuale del file che si desidera comprimere e' " + str(statinfo.st_size) + " byte")
+print("La dimensione attuale del file che si desidera comprimere e' " + str(statinfo.st_size) + " byte")
 
 print("Comprimendo il file...")
 time.sleep(5)
